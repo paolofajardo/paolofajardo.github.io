@@ -1,1 +1,114 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1 id="titulopaolillo">Paolo Fajardo</h1>
+    <div id="img1">
+      <img src="imagen.png" alt="Mi imagen">
+    </div>
+    <p>Me apasionan temas como: los negocios en Internet, la analitíca web, la optimización web (A/B Testing, UX,...), el SEO, los móviles y el SoLoMo, el emprendimiento y las startups, las redes sociales aplicadas a los negocios, las tecnologías web, etc.
+    </p>
+    <hr>
+    <ul>
+    <li><a href="#experiencia">Experiencia profesional</a></li>
+    <li><a href="#habilidades">Habilidades y conocimientos</a></li>
+    <li><a href="#educacion">Educación</a></li>
+    <li><a href="#perfiles">Perfiles sociales</a></li>
+    <li><a href="#contactar">Contactar</a></li>
+    </ul>
+    <br>
+      <h2 id="experiencia">Experiencia Profesional</h1>
+      <table class="tabla1">
+        <thead>
+          <tr>
+            <th>Empresa/Organización</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-hasta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Antel</td>
+            <td>Atencion Telefonica</td>
+            <td>Maldonado, Uruguay</td>
+            <td>xxxx - xxxx</td>
+          </tr>
+          <tr>
+            <td>Fajardo Negocios Inmobiliarios</td>
+            <td>Ventas, Alquileres, Administraciones</td>
+            <td>Punta del Este, Uruguay</td>
+            <td>2014 - Actualidad</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <h2 id="habilidades">Habilidades y conocimientos</h1>
+      <ul class="lista1">
+        <li><b>Desarorollo web:</b> HTML 5, CSS3, JavaScript, Bootstrap.</li>
+        <li><b>Analitica web/Metricas:</b> Google Analytics.</li>
+        <li><b>Marketing:</b> email marketing, redes sociales.</li>
+      </ul>
+      <hr>
+      <h2 id="educacion">Educación</h1>
+      <table class="tabla2">
+        <tr>
+          <th>Título</th>
+          <th>Entidad</th>
+          <th>Promoción</th>
+        </tr>
+        <tr>
+          <td>Desarrollo web</td>
+          <td>Plan Ceibal (Jóvenes a programar)</td>
+          <td>En Curso</td>
+        </tr>
+        <tr>
+          <td>Ingles (First Certificate)</td>
+          <td>Dickens</td>
+          <td>2019</td>
+        </tr>
+      </table>
+      <hr>
+      <h2 id="perfiles">Perfiles sociales</h1>
+      <p>También puedes encontrarme en:</p>
+      <ul>
+        <li><a href="https://www.google.com/">Instagram</a></li>
+        <li><a href="https://www.google.com/">Github</a></li>
+        <li><a href="https://www.google.com/">Twitter</a></li>
+        <li><a href="https://www.google.com/">Linkedin</a></li>
+      </ul>
+      <hr>
+      <section>
+      <h2 id="contactar">Contactar</h1>
+      <form>
+        <label for="para">Para:
+            <input id="para" name="para" type="text" required>
+        </label>
+        <br>
+        <label for="tematica">Tematica:
+            <select id="tematica" name="tematica">
+                <option value="">--Elige un tema--</option>
+                <option value="1">Consulta</option>
+                <option value="2">Propuesta</option>
+                <option value="3">Reporte</option>
+                <option value="4">Otro</option>
+            </select>
+        </label>
+        <br>
+        <label for="para">Asunto:
+            <input id="asunto" name="asunto" type="text" required>
+        </label>
+        <br>
+        <label for="cuerpo">Cuerpo:
+            <textarea id="cuerpo" name="cuerpo" required></textarea>
+        </label>
+        <input type="submit" value="Enviar" />
+        </form>
+        </section>
+</body>
+</html>
